@@ -1,0 +1,28 @@
+# Build artifacts
+BorisBar.app/
+dmg-staging/
+fish.iconset/
+*.dmg
+*.pkg
+
+# Generated icns (can be rebuilt from SVG)
+assets/AppIcon.icns
+
+# Copyrighted audio — users must supply their own clips
+AUDIO/
+assets/clips/*.mp3
+assets/clips/*.mp4
+assets/clips/*.m4a
+assets/clips/*.wav
+assets/clips/*.aiff
+assets/clips/*.aif
+assets/clips/*.caf
+
+# macOS cruft
+.DS_Store
+*.swp
+
+# Preview HTML (aux)
+boris_fish_preview.html
+
+# Plan file (scratch)

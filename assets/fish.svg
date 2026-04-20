@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <!-- Body -->
+  <ellipse cx="30" cy="32" rx="18" ry="12" fill="#E8401A"/>
+  <!-- Tail -->
+  <polygon points="12,32 4,20 4,44" fill="#C93010"/>
+  <!-- Tail inner highlight -->
+  <polygon points="12,32 6,24 6,40" fill="#E8401A" opacity="0.5"/>
+  <!-- Belly highlight -->
+  <ellipse cx="31" cy="36" rx="10" ry="5" fill="#F26035" opacity="0.45"/>
+  <!-- Eye white -->
+  <circle cx="40" cy="28" r="4" fill="white"/>
+  <!-- Eye -->
+  <circle cx="41" cy="28" r="2.5" fill="#1A0800"/>
+  <!-- Eye glint -->
+  <circle cx="41.8" cy="27.1" r="0.9" fill="white"/>
+  <!-- Mouth -->
+  <path d="M47,33 Q49,35 47,36" stroke="#C93010" stroke-width="1.2" fill="none" stroke-linecap="round"/>
+  <!-- Dorsal fin -->
+  <path d="M26,20 Q30,13 36,20" fill="#C93010"/>
+  <!-- Scale detail -->
+  <path d="M22,28 Q26,24 30,28" stroke="#C93010" stroke-width="0.8" fill="none" opacity="0.6"/>
+  <path d="M28,26 Q32,22 36,26" stroke="#C93010" stroke-width="0.8" fill="none" opacity="0.6"/>
+</svg>
