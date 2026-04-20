@@ -25,8 +25,12 @@ Ultra-leggera (~4 MB RAM idle), zero dipendenze, Swift nativo + Cocoa + AVFounda
 
 1. Scarica `BorisBar-1.0.dmg` dall'ultima [Release](../../releases/latest)
 2. Aprilo e trascina `BorisBar.app` nella cartella `Applications`
-3. **Primo avvio:** l'app non è firmata Apple Developer ID, quindi macOS la blocca per sicurezza. Tasto destro su `BorisBar.app` → **Apri** → **Apri** nella finestra di avviso.  
-   (Da quel momento in poi si apre normalmente col doppio click.)
+3. **Primo avvio — rimuovere la quarantena:** l'app non è firmata Apple Developer ID, quindi macOS la marca come "danneggiata". Apri Terminale e lancia una volta:
+   ```bash
+   xattr -cr /Applications/BorisBar.app
+   ```
+   Poi apri l'app normalmente col doppio click.  
+   (Alternativa: tasto destro → **Apri** → **Apri** — funziona solo su versioni vecchie di macOS, su Sequoia / Tahoe serve il comando sopra.)
 4. Clicca il pesce nella menu bar → scegli un clip.
 
 ### Opzione B — Build dai sorgenti
