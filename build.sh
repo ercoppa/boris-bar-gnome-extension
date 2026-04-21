@@ -6,11 +6,22 @@ APP="BorisBar.app"
 rm -rf "$APP"
 mkdir -p "$APP/Contents/MacOS" "$APP/Contents/Resources/clips"
 
-swiftc boris_bar.swift -O \
-  -o "$APP/Contents/MacOS/BorisBar" \
-  -framework Cocoa \
-  -framework AVFoundation \
-  -framework ServiceManagement
+# Universal binary (arm64 + x86_64) pinned to macOS 13.0 deployment target.
+# Forces Swift to only emit symbols available on Sequoia (15) and below,
+# avoiding "symbol not found" crashes on older OS versions when the host
+# SDK is newer.
+TARGETS=("arm64-apple-macos13.0" "x86_64-apple-macos13.0")
+TMP=$(mktemp -d)
+for t in "${TARGETS[@]}"; do
+  swiftc boris_bar.swift -O \
+    -target "$t" \
+    -o "$TMP/BorisBar-${t%%-*}" \
+    -framework Cocoa \
+    -framework AVFoundation \
+    -framework ServiceManagement
+done
+lipo -create "$TMP"/BorisBar-* -output "$APP/Contents/MacOS/BorisBar"
+rm -rf "$TMP"
 
 cp Info.plist         "$APP/Contents/Info.plist"
 cp assets/fish.svg    "$APP/Contents/Resources/fish.svg"
