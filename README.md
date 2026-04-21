@@ -3,7 +3,7 @@
 > ⚠️ **FAN PROJECT NON COMMERCIALE — NON-COMMERCIAL FAN PROJECT**  
 > Questo è un progetto amatoriale gratuito, open source, senza scopo di lucro né valore commerciale, creato da un fan della serie *Boris* per uso personale e di altri fan. Non è affiliato, sponsorizzato, approvato o in alcun modo connesso con RAI, Wildside, Sky, Mediaset, Disney+, o con gli autori, registi, interpreti o detentori dei diritti della serie. Tutti i marchi, titoli, personaggi, dialoghi e opere derivate sono proprietà dei rispettivi titolari.  
 > I clip audio usati a scopo dimostrativo sono stati scaricati da YouTube (contenuti pubblicamente accessibili caricati da terzi) e usati qui esclusivamente per scopo illustrativo, satirico e di omaggio alla serie. **Nessun ricavo, donazione, pubblicità o monetizzazione è associato a questo progetto.**  
-> Se sei il titolare dei diritti e desideri la rimozione dei contenuti, apri una [issue](../../issues) o contatta l'autore: i file verranno rimossi tempestivamente senza discussione.
+> Se sei il titolare dei diritti e desideri la rimozione dei contenuti, scrivi a **andrearicciotti1@gmail.com** o apri una [issue](../../issues): i file verranno rimossi tempestivamente, entro 24 ore, senza discussione.
 
 ---
 
@@ -115,13 +115,16 @@ Licenza [MIT](LICENSE) — libero uso, modifica, redistribuzione per il **codice
 ### Nessuna affiliazione
 Boris Bar **non è** un prodotto ufficiale. **Non è** affiliato, sponsorizzato, approvato o in alcun modo connesso con RAI, Wildside, Sky, Mediaset, Disney+, gli autori (Ciarrapico, Torre, Vendruscolo), gli interpreti (Pannofino, Montesi, e altri) o i detentori dei diritti della serie *Boris*. Ogni riferimento è puramente di omaggio tra fan.
 
-### Takedown policy
+### Takedown policy / contatto DMCA
 Se sei un detentore di diritti e vuoi la rimozione dei contenuti:
-1. Apri una [issue](../../issues) pubblica o privata
-2. Oppure contatta l'autore direttamente via [punxcode.com](https://punxcode.com)
-3. I file saranno rimossi entro 24 ore senza contestazione
 
-L'autore si impegna a rispettare ogni richiesta legittima di takedown in buona fede.
+📧 **Email diretta (preferita): [andrearicciotti1@gmail.com](mailto:andrearicciotti1@gmail.com)**  
+🐛 Oppure apri una [issue](../../issues) su GitHub  
+🌐 Oppure contatta via [punxcode.com](https://punxcode.com)
+
+Per richieste DMCA / takedown valide (detentore dei diritti verificabile + identificazione del contenuto da rimuovere) i file saranno rimossi **entro 24 ore dalla ricezione**, in buona fede, senza contestazione legale.
+
+L'autore si impegna a rispettare ogni richiesta legittima di takedown.
 
 ### Uso da parte dei fan
 Scaricando e usando Boris Bar riconosci che:

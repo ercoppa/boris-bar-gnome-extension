@@ -22,7 +22,7 @@
 //  Nessuna vendita, donazione, pubblicità, tracking o monetizzazione di
 //  alcun tipo. Uso strettamente personale, domestico, non-commerciale.
 //
-//  I detentori di diritti possono richiedere la rimozione aprendo una
+//  DMCA / takedown: andrearicciotti1@gmail.com (preferito) oppure una
 //  issue su https://github.com/andrearicciotti1/boris-bar/issues —
 //  richieste legittime onorate entro 24 ore, in buona fede, senza
 //  contestazione.
@@ -301,8 +301,9 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
         PROPRIETÀ. Tutti i marchi, personaggi, dialoghi, nomi e loghi sono \
         proprietà dei rispettivi titolari.
 
-        TAKEDOWN. I detentori di diritti possono richiedere la rimozione \
-        aprendo una issue su GitHub. Richieste legittime onorate entro 24h.
+        TAKEDOWN / DMCA. I detentori di diritti possono richiedere la \
+        rimozione scrivendo a andrearicciotti1@gmail.com o aprendo una \
+        issue su GitHub. Richieste legittime onorate entro 24h.
 
         Codice: licenza MIT.
         """

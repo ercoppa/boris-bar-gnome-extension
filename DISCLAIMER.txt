@@ -53,9 +53,12 @@ SCOPO DI LUCRO, creato da un fan della serie TV italiana "Boris".
 
 7. RICHIESTE DI RIMOZIONE (TAKEDOWN)
    Se sei un detentore di diritti e vuoi che contenuti specifici
-   vengano rimossi:
-   - Apri una issue: https://github.com/andrearicciotti1/boris-bar/issues
-   - Oppure contatta: https://punxcode.com
+   vengano rimossi, contattami direttamente:
+
+     Email:   andrearicciotti1@gmail.com   (preferito)
+     Issues:  https://github.com/andrearicciotti1/boris-bar/issues
+     Web:     https://punxcode.com
+
    Le richieste legittime verranno onorate entro 24 ore, in buona
    fede, senza contestazione.
 
@@ -83,7 +86,8 @@ each) used exclusively for tribute, illustration, criticism, review,
 commentary, satire, parody and pastiche — under fair use (17 USC 107),
 EU Directive 2019/790 art. 17(7), and Italian art. 70 L. 633/1941.
 
-TAKEDOWN: rights holders may request removal at
+TAKEDOWN / DMCA CONTACT: rights holders may request removal by emailing
+andrearicciotti1@gmail.com (preferred) or opening an issue at
 https://github.com/andrearicciotti1/boris-bar/issues — all legitimate
 requests honored within 24 hours.
 
