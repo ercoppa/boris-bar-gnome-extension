@@ -1,5 +1,12 @@
 # 🐟 Boris Bar
 
+> ⚠️ **FAN PROJECT NON COMMERCIALE — NON-COMMERCIAL FAN PROJECT**  
+> Questo è un progetto amatoriale gratuito, open source, senza scopo di lucro né valore commerciale, creato da un fan della serie *Boris* per uso personale e di altri fan. Non è affiliato, sponsorizzato, approvato o in alcun modo connesso con RAI, Wildside, Sky, Mediaset, Disney+, o con gli autori, registi, interpreti o detentori dei diritti della serie. Tutti i marchi, titoli, personaggi, dialoghi e opere derivate sono proprietà dei rispettivi titolari.  
+> I clip audio usati a scopo dimostrativo sono stati scaricati da YouTube (contenuti pubblicamente accessibili caricati da terzi) e usati qui esclusivamente per scopo illustrativo, satirico e di omaggio alla serie. **Nessun ricavo, donazione, pubblicità o monetizzazione è associato a questo progetto.**  
+> Se sei il titolare dei diritti e desideri la rimozione dei contenuti, apri una [issue](../../issues) o contatta l'autore: i file verranno rimossi tempestivamente senza discussione.
+
+---
+
 Menu bar app macOS ispirata alla serie TV italiana *Boris*. Clip audio iconici della serie a portata di shortcut globale, dalla menu bar del Mac.
 
 Ultra-leggera (~4 MB RAM idle), zero dipendenze, Swift nativo + Cocoa + AVFoundation.
@@ -88,11 +95,40 @@ Funzionano ovunque, anche senza aprire il menu. Ripremere lo stesso shortcut fer
 
 ---
 
-## 📜 Licenza
+## 📜 Licenza e disclaimer
 
-[MIT](LICENSE) per il codice.
+### Codice sorgente
+Licenza [MIT](LICENSE) — libero uso, modifica, redistribuzione per il **codice**.
 
-I clip audio della serie *Boris* sono di proprietà di RAI / Wildside / Sky e **non** sono inclusi in questo repo. Devi fornire i tuoi file. L'app è pensata per uso personale, non commerciale.
+### Contenuti audio (estratti della serie Boris)
+- **Non sono mia proprietà.** Tutti i diritti sui dialoghi, personaggi, opera originale appartengono a **RAI**, **Wildside**, **Sky**, **Mediaset**, **Disney+** e agli autori/interpreti della serie (a seconda della stagione e della piattaforma distributiva).
+- **Provenienza:** i clip audio di default sono stati **scaricati da YouTube**, estratti da video di terzi pubblicamente accessibili. L'autore di questo progetto non è la fonte originale e non ha rippato direttamente dai master.
+- **Uso:** esclusivamente illustrativo, satirico, di omaggio (*tribute*), educativo e di commento critico alla serie. Nessuno dei clip è stato alterato sostanzialmente; sono brevi estratti (pochi secondi) dal contesto integrale dell'opera.
+- **Fair use / eccezioni copyright:** il progetto si appoggia ai principi di *fair use* (USA) / *fair dealing* e alle eccezioni per critica, recensione, caricatura, parodia e pastiche previste dalla direttiva UE 2019/790 art. 17(7) e dall'art. 70 L. 633/1941 (legge italiana sul diritto d'autore).
+
+### Nessuno scopo di lucro
+- ❌ Nessuna vendita, nessuna donazione, nessun annuncio pubblicitario, nessuna promozione a pagamento
+- ❌ Nessun paywall, nessun abbonamento, nessuna in-app purchase
+- ❌ Nessuna telemetria, nessuna analitica, nessun tracciamento utenti
+- ✅ Gratis, open source, auto-contenuto, offline
+
+### Nessuna affiliazione
+Boris Bar **non è** un prodotto ufficiale. **Non è** affiliato, sponsorizzato, approvato o in alcun modo connesso con RAI, Wildside, Sky, Mediaset, Disney+, gli autori (Ciarrapico, Torre, Vendruscolo), gli interpreti (Pannofino, Montesi, e altri) o i detentori dei diritti della serie *Boris*. Ogni riferimento è puramente di omaggio tra fan.
+
+### Takedown policy
+Se sei un detentore di diritti e vuoi la rimozione dei contenuti:
+1. Apri una [issue](../../issues) pubblica o privata
+2. Oppure contatta l'autore direttamente via [punxcode.com](https://punxcode.com)
+3. I file saranno rimossi entro 24 ore senza contestazione
+
+L'autore si impegna a rispettare ogni richiesta legittima di takedown in buona fede.
+
+### Uso da parte dei fan
+Scaricando e usando Boris Bar riconosci che:
+- Lo fai per uso strettamente personale e domestico
+- Non redistribuirai i clip audio a fini commerciali
+- Non userai l'app in contesti pubblici monetizzati (trasmissioni, streaming a pagamento, eventi ticketed)
+- L'autore non fornisce garanzie legali sul contenuto audio
 
 ---
 

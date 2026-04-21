@@ -25,4 +25,8 @@ assets/clips/*.caf
 # Preview HTML (aux)
 boris_fish_preview.html
 
+# Unrelated projects in parent scratch dir
+SceneAnalyzer/
+.claude/
+
 # Plan file (scratch)

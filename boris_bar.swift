@@ -1,3 +1,34 @@
+//
+//  Boris Bar — macOS menu bar app
+//  © 2026 Andrea Ricciotti / PunxCode
+//  Source code licensed under MIT (see LICENSE file).
+//
+//  ──────────────────────────────────────────────────────────────────────
+//  DISCLAIMER (leggi anche LICENSE e DISCLAIMER.txt)
+//
+//  Questo è un FAN PROJECT amatoriale, GRATUITO, OPEN SOURCE e SENZA
+//  SCOPO DI LUCRO. Non è un prodotto ufficiale. Non è affiliato,
+//  sponsorizzato, approvato o in alcun modo connesso con RAI, Wildside,
+//  Sky, Mediaset, Disney+ né con gli autori (Ciarrapico, Vendruscolo,
+//  Torre), gli interpreti o i produttori della serie "Boris".
+//
+//  I clip audio di default sono brevi estratti (pochi secondi) scaricati
+//  da YouTube, da video pubblicamente accessibili caricati da terzi, e
+//  utilizzati esclusivamente a scopo di omaggio, critica, commento,
+//  satira, parodia e pastiche (art. 70 L. 633/1941 e dir. UE 2019/790
+//  art. 17(7)). Tutti i diritti su marchi, personaggi, dialoghi, nomi e
+//  loghi appartengono ai rispettivi titolari.
+//
+//  Nessuna vendita, donazione, pubblicità, tracking o monetizzazione di
+//  alcun tipo. Uso strettamente personale, domestico, non-commerciale.
+//
+//  I detentori di diritti possono richiedere la rimozione aprendo una
+//  issue su https://github.com/andrearicciotti1/boris-bar/issues —
+//  richieste legittime onorate entro 24 ore, in buona fede, senza
+//  contestazione.
+//  ──────────────────────────────────────────────────────────────────────
+//
+
 import Cocoa
 import AVFoundation
 import ServiceManagement
@@ -138,6 +169,13 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
                                keyEquivalent: "")
         loginItem.target = self
         menu.addItem(loginItem)
+
+        let about = NSMenuItem(title: "Informazioni e disclaimer…",
+                               action: #selector(showAbout),
+                               keyEquivalent: "")
+        about.target = self
+        menu.addItem(about)
+
         menu.addItem(withTitle: "Esci",
                      action: #selector(NSApp.terminate),
                      keyEquivalent: "q")
@@ -233,6 +271,50 @@ class AppDelegate: NSObject, NSApplicationDelegate, NSMenuDelegate {
             }
         } catch {
             NSLog("Login toggle failed: \(error)")
+        }
+    }
+
+    // MARK: - About / Disclaimer
+
+    @objc func showAbout() {
+        NSApp.activate(ignoringOtherApps: true)
+        let alert = NSAlert()
+        alert.messageText = "Boris Bar — Fan project non commerciale"
+        alert.informativeText = """
+        Versione 1.0 · © 2026 Andrea Ricciotti / PunxCode
+
+        Boris Bar è un progetto amatoriale, gratuito, open source, \
+        senza scopo di lucro, creato da un fan della serie TV italiana Boris.
+
+        NON AFFILIAZIONE. Non è un prodotto ufficiale. Non è affiliato, \
+        sponsorizzato o approvato da RAI, Wildside, Sky, Mediaset, Disney+ \
+        né dagli autori della serie (Ciarrapico, Vendruscolo, Torre) o dagli interpreti.
+
+        ORIGINE AUDIO. I clip sono brevi estratti (pochi secondi) scaricati \
+        da YouTube, da video pubblicamente accessibili caricati da terzi. \
+        Usati esclusivamente a scopo di omaggio, critica, commento, satira, \
+        parodia e pastiche (art. 70 L. 633/1941, dir. UE 2019/790 art. 17(7)).
+
+        NESSUN LUCRO. Nessuna vendita, donazione, pubblicità, tracking o \
+        monetizzazione di alcun tipo.
+
+        PROPRIETÀ. Tutti i marchi, personaggi, dialoghi, nomi e loghi sono \
+        proprietà dei rispettivi titolari.
+
+        TAKEDOWN. I detentori di diritti possono richiedere la rimozione \
+        aprendo una issue su GitHub. Richieste legittime onorate entro 24h.
+
+        Codice: licenza MIT.
+        """
+        alert.alertStyle = .informational
+        alert.addButton(withTitle: "OK")
+        alert.addButton(withTitle: "Apri GitHub")
+        alert.addButton(withTitle: "Apri licenza")
+        let resp = alert.runModal()
+        if resp == .alertSecondButtonReturn {
+            NSWorkspace.shared.open(URL(string: "https://github.com/andrearicciotti1/boris-bar")!)
+        } else if resp == .alertThirdButtonReturn {
+            NSWorkspace.shared.open(URL(string: "https://github.com/andrearicciotti1/boris-bar/blob/main/LICENSE")!)
         }
     }
 

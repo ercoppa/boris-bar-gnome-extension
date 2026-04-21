@@ -15,6 +15,8 @@ swiftc boris_bar.swift -O \
 cp Info.plist         "$APP/Contents/Info.plist"
 cp assets/fish.svg    "$APP/Contents/Resources/fish.svg"
 cp assets/AppIcon.icns "$APP/Contents/Resources/AppIcon.icns"
+cp DISCLAIMER.txt     "$APP/Contents/Resources/DISCLAIMER.txt"
+cp LICENSE            "$APP/Contents/Resources/LICENSE.txt"
 for ext in mp3 mp4 m4a wav aiff aif caf; do
   cp assets/clips/*.$ext "$APP/Contents/Resources/clips/" 2>/dev/null || true
 done

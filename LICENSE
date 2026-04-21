@@ -22,7 +22,57 @@ SOFTWARE.
 
 ---
 
-NOTE: The MIT license covers the source code only. Audio clips from the TV
-series "Boris" (RAI / Wildside / Sky) are NOT included in this repository and
-remain property of their respective rights holders. Users must supply their
-own audio files.
+THIRD-PARTY CONTENT DISCLAIMER
+
+The MIT license above applies EXCLUSIVELY to the original source code
+(boris_bar.swift, build.sh, make_icon.swift, Info.plist, README.md, fish.svg
+icon and documentation) authored by Andrea Ricciotti / PunxCode.
+
+Audio clips (.mp3 / .mp4 / .m4a / .wav) referenced by or bundled with this
+project are NOT covered by this license. These clips are short excerpts from
+the Italian television series "Boris" (2007-2022), which is the intellectual
+property of its respective rights holders, including but not limited to:
+
+  - RAI (Radiotelevisione Italiana)
+  - Wildside S.r.l.
+  - Sky Italia S.r.l.
+  - Mediaset
+  - The Walt Disney Company Italia (Disney+)
+  - The original authors: Giacomo Ciarrapico, Luca Vendruscolo, Mattia Torre
+  - The original cast and production team
+
+The audio clips included in binary distributions (e.g. the DMG attached to
+GitHub Releases) were sourced from publicly available YouTube uploads by
+third parties. They are included solely for demonstration, tribute, satire,
+criticism, commentary and educational purposes, under the principles of
+fair use (17 U.S.C. § 107, USA) and fair dealing / copyright exceptions for
+criticism, review, caricature, parody and pastiche as defined by:
+
+  - EU Directive 2019/790, Article 17(7)
+  - Italian law: Art. 70, Legge 22 aprile 1941, n. 633 (LDA)
+
+NO COMMERCIAL USE. This project is a non-commercial, non-profit fan tribute.
+Its author receives no revenue, donations, advertising income, royalties,
+sponsorships or any other form of monetary or non-monetary consideration
+from its distribution or use.
+
+NO AFFILIATION. This project is an independent amateur work. It is not
+affiliated with, endorsed, sponsored, authorized by or in any way connected
+to RAI, Wildside, Sky, Mediaset, Disney+, the authors, cast, crew or any
+other official rights holder of the "Boris" TV series. All trademarks,
+service marks, trade names, product names, logos, characters and dialogue
+referenced or reproduced belong to their respective owners.
+
+TAKEDOWN POLICY. If you are a rights holder and wish to have any content
+removed, open an issue on the GitHub repository or contact the author at
+https://punxcode.com. Removal requests will be honored promptly and in good
+faith, within 24 hours of receipt, without contestation.
+
+USER RESPONSIBILITY. End users are responsible for ensuring their personal
+use complies with the copyright laws of their jurisdiction. This software
+is provided for personal, non-commercial, domestic use only. Users must not
+redistribute the bundled audio content for commercial purposes, broadcast
+it in monetized public contexts, or use it in any manner that infringes on
+the rights of the legitimate owners.
+
+THIS IS A FAN PROJECT. PLEASE DO NOT SUE A FAN.

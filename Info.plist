@@ -12,5 +12,7 @@
     <key>LSUIElement</key>               <true/>
     <key>LSMinimumSystemVersion</key>    <string>13.0</string>
     <key>NSHighResolutionCapable</key>   <true/>
+    <key>LSApplicationCategoryType</key> <string>public.app-category.entertainment</string>
+    <key>NSHumanReadableCopyright</key>  <string>© 2026 Andrea Ricciotti / PunxCode. Fan project non-commerciale, non affiliato con RAI / Wildside / Sky / Disney+ né con gli autori della serie Boris. Codice MIT. Audio da YouTube a solo scopo di omaggio. Nessuno scopo di lucro.</string>
 </dict>
 </plist>
