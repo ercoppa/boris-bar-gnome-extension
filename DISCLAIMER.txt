@@ -6,7 +6,8 @@ ITALIANO
 ========
 
 Boris Bar è un FAN PROJECT amatoriale, GRATUITO, OPEN SOURCE e SENZA
-SCOPO DI LUCRO, creato da un fan della serie TV italiana "Boris".
+SCOPO DI LUCRO, curato da Emilio Coppa e ispirato alla serie TV italiana
+"Boris".
 
 1. NON AFFILIAZIONE
    Questo software NON è un prodotto ufficiale. NON è affiliato,
@@ -25,8 +26,11 @@ SCOPO DI LUCRO, creato da un fan della serie TV italiana "Boris".
    I clip audio inclusi in questo bundle sono brevi estratti (pochi
    secondi ciascuno) della serie "Boris". Sono stati SCARICATI da
    YouTube, da video pubblicamente accessibili caricati da terzi.
-   L'autore di Boris Bar non è la fonte originale e non ha avuto
-   accesso ai master dell'opera.
+   L'autore di questa estensione GNOME non è la fonte originale e non
+   ha avuto accesso ai master dell'opera.
+
+   Nota di credito: il concept originale di Boris Bar nasce dall'app
+   per macOS realizzata da Andrea Ricciotti / PunxCode.
 
 4. FINALITÀ D'USO
    I clip sono utilizzati esclusivamente per:
@@ -55,9 +59,7 @@ SCOPO DI LUCRO, creato da un fan della serie TV italiana "Boris".
    Se sei un detentore di diritti e vuoi che contenuti specifici
    vengano rimossi, contattami direttamente:
 
-     Email:   andrearicciotti1@gmail.com   (preferito)
-     Issues:  https://github.com/andrearicciotti1/boris-bar/issues
-     Web:     https://punxcode.com
+       Issues:  https://github.com/ercoppa/boris-bar-gnome-extension/issues
 
    Le richieste legittime verranno onorate entro 24 ore, in buona
    fede, senza contestazione.
@@ -70,7 +72,8 @@ ENGLISH
 =======
 
 Boris Bar is an AMATEUR, FREE, OPEN-SOURCE, NON-PROFIT FAN PROJECT
-created by a fan of the Italian TV series "Boris".
+maintained by Emilio Coppa and inspired by the Italian TV series
+"Boris".
 
 NOT AFFILIATED with RAI, Wildside, Sky, Mediaset, Disney+ or with the
 writers, cast or producers of the "Boris" TV series. All trademarks,
@@ -86,13 +89,15 @@ each) used exclusively for tribute, illustration, criticism, review,
 commentary, satire, parody and pastiche — under fair use (17 USC 107),
 EU Directive 2019/790 art. 17(7), and Italian art. 70 L. 633/1941.
 
+CREDIT: the original Boris Bar concept comes from the macOS app created
+by Andrea Ricciotti / PunxCode.
+
 TAKEDOWN / DMCA CONTACT: rights holders may request removal by emailing
-andrearicciotti1@gmail.com (preferred) or opening an issue at
-https://github.com/andrearicciotti1/boris-bar/issues — all legitimate
-requests honored within 24 hours.
+https://github.com/ercoppa/boris-bar-gnome-extension/issues — all
+legitimate requests honored within 24 hours.
 
 THIS IS A FAN PROJECT. PLEASE DO NOT SUE A FAN.
 
 ---
-© 2026 Andrea Ricciotti / PunxCode · MIT License (code only)
-https://punxcode.com
+© 2026 Emilio Coppa · MIT License (code only)
+https://github.com/ercoppa/boris-bar-gnome-extension

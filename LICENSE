@@ -1,6 +1,6 @@
 MIT License
 
-Copyright (c) 2026 Andrea Ricciotti / PunxCode
+Copyright (c) 2026 Emilio Coppa
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
@@ -24,9 +24,11 @@ SOFTWARE.
 
 THIRD-PARTY CONTENT DISCLAIMER
 
-The MIT license above applies EXCLUSIVELY to the original source code
-(boris_bar.swift, build.sh, make_icon.swift, Info.plist, README.md, fish.svg
-icon and documentation) authored by Andrea Ricciotti / PunxCode.
+The MIT license above applies EXCLUSIVELY to the GNOME extension source
+code, assets and documentation authored for this repository by Emilio Coppa.
+
+Credit is preserved for the original Boris Bar macOS app concept created by
+Andrea Ricciotti / PunxCode, which inspired this GNOME Shell adaptation.
 
 Audio clips (.mp3 / .mp4 / .m4a / .wav) referenced by or bundled with this
 project are NOT covered by this license. These clips are short excerpts from
@@ -66,9 +68,7 @@ referenced or reproduced belong to their respective owners.
 TAKEDOWN POLICY / DMCA CONTACT. If you are a rights holder and wish to
 have any content removed, contact the author directly:
 
-  Email:   andrearicciotti1@gmail.com   (preferred)
-  Issues:  https://github.com/andrearicciotti1/boris-bar/issues
-  Web:     https://punxcode.com
+  Issues:  https://github.com/ercoppa/boris-bar-gnome-extension/issues
 
 Removal requests will be honored promptly and in good faith, within 24
 hours of receipt, without contestation.

@@ -1,0 +1,14 @@
+{
+  "uuid": "boris-bar@ercoppa.github.com",
+  "name": "Boris Bar",
+  "description": "GNOME Shell extension ispirata alla serie TV italiana Boris. Clip audio iconici della serie a portata di shortcut globale.",
+  "shell-version": [
+    "45",
+    "46",
+    "47",
+    "48",
+    "49"
+  ],
+  "url": "https://github.com/ercoppa/boris-bar-gnome-extension",
+  "settings-schema": "org.gnome.shell.extensions.boris-bar"
+}
