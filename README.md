@@ -2,14 +2,15 @@
 
 > ⚠️ **FAN PROJECT NON COMMERCIALE — NON-COMMERCIAL FAN PROJECT**  
 > Questo è un progetto amatoriale gratuito, open source, senza scopo di lucro né valore commerciale, creato da un fan della serie *Boris* per uso personale e di altri fan. Non è affiliato, sponsorizzato, approvato o in alcun modo connesso con RAI, Wildside, Sky, Mediaset, Disney+, o con gli autori, registi, interpreti o detentori dei diritti della serie. Tutti i marchi, titoli, personaggi, dialoghi e opere derivate sono proprietà dei rispettivi titolari.  
-> I clip audio usati a scopo dimostrativo sono stati scaricati da YouTube (contenuti pubblicamente accessibili caricati da terzi) e usati qui esclusivamente per scopo illustrativo, satirico e di omaggio alla serie. **Nessun ricavo, donazione, pubblicità o monetizzazione è associato a questo progetto.**  
-> Se sei il titolare dei diritti e desideri la rimozione dei contenuti, apri una [issue](https://github.com/ercoppa/boris-bar-gnome-extension/issues): i file verranno rimossi tempestivamente, entro 24 ore, senza discussione.
+> Questo repository e questa estensione **non distribuiscono alcun file audio**: forniscono esclusivamente il riproduttore e l'integrazione GNOME Shell. Ottenere eventuali clip audio e verificarne la legittima disponibilità per l'uso locale è **responsabilità esclusiva dell'utente**.  
+> **Nessun ricavo, donazione, pubblicità o monetizzazione è associato a questo progetto.**  
+> Se sei il titolare dei diritti e desideri la rimozione dei contenuti, apri una [issue](https://github.com/ercoppa/boris-bar-gnome-extension/issues): i file verranno rimossi tempestivamente.
 
 ---
 
-Estensione per GNOME Shell 45-49 ispirata alla serie TV italiana *Boris*. Clip audio iconici della serie a portata di shortcut globale, direttamente dal pannello superiore.
+Estensione per GNOME Shell 45-49 ispirata alla serie TV italiana *Boris*. Fornisce un riproduttore di clip audio con shortcut globali direttamente dal pannello superiore, ma **non include né redistribuisce file audio**.
 
-Questa versione GNOME è curata da **Emilio Coppa**. Il concept originale di *Boris Bar* nasce dall'app per macOS realizzata da **Andrea Ricciotti / PunxCode**, qui citata come ispirazione originaria del progetto.
+Il concept originale di *Boris Bar* nasce dall'[app per macOS](https://github.com/andrearicciotti1/boris-bar) realizzata da **Andrea Ricciotti**, qui citata come ispirazione originaria del progetto.
 
 Zero dipendenze esterne, basato interamente su GJS, GStreamer (nativo in GNOME) e GTK4.
 
@@ -50,6 +51,8 @@ Zero dipendenze esterne, basato interamente su GJS, GStreamer (nativo in GNOME) 
    ./tools/import-audio-from-dmg.sh
    ```
 
+Nota: l'estensione installata da questo repository contiene solo codice e asset grafici. Qualsiasi clip audio va reperito separatamente dall'utente e salvato in locale sotto la propria responsabilità.
+
 ### Import audio dalla release macOS originale
 
 Per evitare di redistribuire i clip audio come artifact di questo repository, l'estensione puo' caricare i clip built-in dalla directory locale utente:
@@ -58,7 +61,7 @@ Per evitare di redistribuire i clip audio come artifact di questo repository, l'
 Lo script incluso scarica il DMG originale da:
 `https://github.com/andrearicciotti1/boris-bar/releases/download/v1.0/BorisBar-1.0.dmg`
 
-ed estrae i file audio in quella cartella locale. Requisiti minimi:
+ed estrae i file audio in quella cartella locale. Lo script e l'estensione fungono solo da mezzo tecnico di import/riproduzione: la disponibilità dei file audio, i diritti d'uso e la conformità legale del download restano in capo all'utente. Requisiti minimi:
 
 - `curl`
 - uno tra `7z`, `7zz`, `bsdtar`, `hdiutil`
@@ -123,6 +126,7 @@ Puoi modificare questi shortcut tramite `dconf-editor` o da riga di comando navi
 Licenza [MIT](LICENSE) — libero uso, modifica, redistribuzione per il **codice**.
 
 ### Contenuti audio (estratti della serie Boris)
+- **Questo progetto non redistribuisce clip audio.** Il repository pubblica solo il codice dell'estensione e gli asset non audio; eventuali file sonori devono essere ottenuti e conservati localmente dagli utenti sotto la loro esclusiva responsabilità.
 - **Non sono mia proprietà.** Tutti i diritti sui dialoghi, personaggi, opera originale appartengono a **RAI**, **Wildside**, **Sky**, **Mediaset**, **Disney+** e agli autori/interpreti della serie.
 - **Provenienza:** i clip audio di default sono stati **scaricati da YouTube**, estratti da video di terzi pubblicamente accessibili. L'autore di questa estensione GNOME non è la fonte originale.
 - **Uso:** esclusivamente illustrativo, satirico, di omaggio (*tribute*), educativo e di commento critico alla serie.
@@ -143,12 +147,6 @@ Se sei un detentore di diritti e vuoi la rimozione dei contenuti:
 🐛 Apri una [issue](https://github.com/ercoppa/boris-bar-gnome-extension/issues) su GitHub
 
 Per richieste valide, i file saranno rimossi **entro 24 ore dalla ricezione**.
-
----
-
-## 🤘 Autore
-
-[Emilio Coppa](https://github.com/ercoppa)
 
 ---
 
